@@ -1,0 +1,67 @@
+*{
+background-color: white
+
+}
+
+.one{
+    font-weight: bold;
+    font-size: larger;
+    margin-top: 35px;
+    padding-left: 10px;
+}
+
+.two{
+    margin-top: 10px;
+    font-size: large;
+    padding-left: 10px;
+}
+
+.box1{
+    grid-area: a;
+    background-color: rgba(255, 0, 0, 0.384);
+    border-radius: 8px;
+}
+
+.p1{
+    background-color: rgba(255, 0, 0, 0);
+   }
+
+.box2{
+    grid-area: b;
+    background-color: rgba(255, 166, 0, 0.384);
+    border-radius: 8px;
+}
+
+.p2{
+    background-color: rgba(255, 166, 0, 0);
+   }
+
+.box3{
+    grid-area: c;
+    background-color: rgba(255, 255, 0, 0.384);
+    border-radius: 8px;
+}
+
+.p3{
+    background-color: rgba(255, 255, 0, 0);
+   }
+
+
+.box{
+    width: 80%;
+    margin: auto;
+    margin-top: 120px;
+    border-radius: 8px;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    display: grid;
+    grid-gap: 70px;
+    grid-template-areas:
+   'a a a a b b b'
+   'c c c c c c c';
+}
+
+.box2>a{
+    background-color: rgba(255, 0, 0, 0.384);
+}

@@ -1,0 +1,45 @@
+body{
+    margin-top: 150px;
+    margin-left: 200px;
+    font-size: larger;
+}
+
+
+.onea{
+    width: 400px;
+}
+
+.two{
+    margin-top: 20px;
+}
+
+.twoa{
+    width: 400px;
+}
+
+.three{
+    margin-top: 20px;
+}
+
+.threea{
+    width: 400px;
+    height: 60px;
+}
+
+
+.four{
+    font-size: large;
+    margin-top: 100px;
+    margin-left: 400px;
+}
+
+.submit{
+    padding: 7px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: blue;
+    color: white;
+    font-size: large;
+    border-color: blue;
+    border-radius: 8px;
+}

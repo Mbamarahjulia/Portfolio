@@ -1,0 +1,28 @@
+.one{
+    font-size: x-large;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+.two{
+    margin-left: 50px;
+    font-size: larger;
+    margin-top: 20px;
+}
+
+.three{
+    font-size: large;
+    margin-top: 100px;
+    margin-left: 600px;
+}
+
+.threeone{
+    padding: 7px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: blue;
+    color: white;
+    font-size: large;
+    border-color: blue;
+    border-radius: 8px;
+}
